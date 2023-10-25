@@ -1,10 +1,10 @@
                 //objects
 
-//mentre gli array sono una lista numerata, gli objects sono una struttura di dati che può contenere più valori ai quali si può raggiungere per mezzo di una serie di nomi 
+//mentre gli array sono una lista numerata, gli objects sono una struttura di dati che può contenere più proprietà/valore ai quali si può raggiungere per mezzo di una serie di nomi 
 //es:
 
 const allievo = {
-    //proprietà: valore
+    //key: proprietà/valore a seconda se un numero o una stringa 
     nome: 'Daniele',
     cognome: 'Giuntoli',
     eta: '30',
@@ -365,5 +365,14 @@ const index = carrello.findIndex((el)=> el.prezzo > 10);
 
 
 //find()
+
+//tipi di copia 
+
+//shellow copy copia di primo vello
+//deep copy copia di secondo livello 
+
+
+
+
 
 
